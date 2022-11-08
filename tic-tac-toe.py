@@ -71,7 +71,7 @@ def play_game():
                 response = None
                 print("That is not a valid value")
     clear()
-    print_board()
+    print_board(board)
     if has_winner(board):
         print(f"The winner is {has_winner(board)}!")
     else:
